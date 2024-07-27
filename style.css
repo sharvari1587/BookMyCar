@@ -1,0 +1,569 @@
+/* Custom CSS styles */
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
+    /* Light background color */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    /* Make the logo text bold */
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+    /* Navbar link color */
+    font-weight: 500;
+    /* Medium font weight */
+    font-size: 21px;
+    /* Font size for navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+    /* Hover color */
+}
+
+.navbar-toggler-icon {
+    border-color: #343a40;
+    /* Hamburger icon color */
+}
+
+/* Responsive Navbar */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #f8f9fa;
+        /* Light background color for collapsed navbar */
+    }
+
+    .navbar-nav {
+        margin: 0 auto;
+        /* Center align the links */
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+        /* Center align the individual links */
+    }
+}
+
+/* Custom CSS styles */
+
+/* Car Slider and Form Section */
+.car-slider-section {
+    background-color: #f0f8ea;
+    /* Light green shaded background */
+    padding: 50px 0;
+    /* Add padding top and bottom */
+}
+
+.car-slider-section h2 {
+    margin-bottom: 20px;
+    /* Add space below the heading */
+}
+
+.car-selection-form {
+    background-color: #d4edda;
+    /* Light green background for the form */
+    padding: 30px;
+    /* Add padding to the form */
+    border-radius: 10px;
+    /* Add rounded corners to the form */
+}
+
+.car-selection-form form {
+    margin-bottom: 0;
+    /* Remove default margin from the form */
+}
+
+/* Placeholder Styles */
+input::placeholder {
+    color: #0fd43d;
+    /* Placeholder text color */
+    font-style: italic;
+    /* Italicize placeholder text */
+    font-weight: 500;
+    /* Medium font weight */
+}
+
+/* Custom CSS styles */
+
+/* Carousel Caption Styling */
+.carousel-caption {
+    top: 20%;
+    /* Position the caption vertically centered */
+    transform: translateY(-50%);
+    /* Adjust to center vertically */
+}
+
+.carousel-caption h5 {
+    font-size: 28px;
+    /* Font size for the main text */
+    font-weight: bold;
+    /* Bold font weight */
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    /* Font size for the secondary text */
+    margin-bottom: 0;
+    /* Remove bottom margin */
+}
+
+/* Car Slider Positioning */
+.carousel-inner {
+    position: relative;
+    left: -40px;
+    /* Adjust the value to shift the carousel left */
+    width: calc(100% + 20px);
+    /* Add left and right padding */
+}
+
+/* Custom CSS styles */
+
+/* Form Styling */
+.car-selection-form {
+    background-color: #f9f9f9;
+    /* Premium white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Add shadow for premium look */
+}
+
+.car-selection-form h2 {
+    margin-bottom: 20px;
+    /* Add space below the heading */
+}
+
+.form-group label {
+    color: #28a745;
+    /* Green label text color */
+}
+
+.form-control::placeholder {
+    color: #28a745;
+    /* Green placeholder text color */
+}
+
+.input-group-text {
+    background-color: #28a745;
+    /* Green background for icon */
+    color: #fff;
+    /* White icon color */
+    border: none;
+}
+
+.input-group-text i {
+    font-size: 18px;
+    /* Icon size */
+}
+
+
+#customer-service-section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+}
+
+.card i {
+    font-size: 36px;
+    color: #28a745;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.premium-title {
+    font-family: 'Your Premium Font', sans-serif;
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+}
+
+.premium-line {
+    border: none;
+    border-top: 2px solid #068f14;
+    /* Your premium color */
+    width: 30%;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+#signup-section {
+    background-color: #088c18;
+    padding: 30px 0 10px;
+    /* Reduce bottom padding */
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    height: 550px;
+    /* Set max height */
+    overflow-y: auto;
+    /* Add scrollbar if content exceeds height */
+}
+
+.signup-container {
+    text-align: center;
+    color: #fff;
+    /* Text color */
+    max-height: 430px;
+    /* Adjust max height to fit content */
+}
+
+.signup-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+    /* Add margin bottom */
+}
+
+.signup-info {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+    /* Text color */
+}
+
+.signup-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.signup-line {
+    border: none;
+    border-top: 3px solid #fff;
+    /* White border color */
+    width: 50%;
+    margin: 20px auto;
+}
+
+.form-control {
+    background-color: #fff;
+    /* White background color */
+    color: #333;
+    /* Text color */
+    border-color: #05661c;
+    /* Green border color */
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #fff;
+    /* White button background color */
+    color: #28a745;
+    /* Green button text color */
+    border-color: #fff;
+    /* White button border color */
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #35c256d5;
+    /* Green button background color on hover */
+    color: #fff;
+    /* Text color on hover */
+}
+
+.social-signup {
+    margin-top: 20px;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.login-link {
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: rgb(1, 85, 1);
+    /* Green placeholder color */
+}
+
+/* Custom CSS styles */
+/* Car Details Section */
+#car-details-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    /* Light green background */
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #28a745;
+    /* Green text color */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table {
+    width: 100%;
+    background-color: #fff;
+    /* White background */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Shadow for depth */
+}
+
+.car-details-table th,
+.car-details-table td {
+    padding: 15px;
+    border-top: 1px solid #dee2e6;
+    vertical-align: top;
+}
+
+.car-details-table th {
+    width: 30%;
+    background-color: #f8f9fa;
+    /* Light green background for headers */
+    font-weight: bold;
+}
+
+.car-details-table td {
+    width: 70%;
+}
+
+.car-details-table td:first-child {
+    font-weight: bold;
+    /* Make the first column bold */
+}
+
+.selected {
+    background-color: lightgreen;
+    /* Change to your desired shade of green */
+}
+
+
+/* Increase font size for table content */
+.table th,
+.table td {
+    font-size: 22px;
+    /* Adjust the font size as needed */
+}
+
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-item-container {
+    width: 100%;
+}
+
+.contact-item {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* Align items vertically on smaller screens */
+}
+
+.contact-details {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    /* Center align text on smaller screens */
+}
+
+.contact-details h2 {
+    font-size: 24px;
+}
+
+.contact-info {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    /* Center align text on smaller screens */
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.address {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    /* Center align text on smaller screens */
+}
+
+.contact-form-container {
+    width: 100%;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.contact-form h2 {
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    /* Add a 2px solid border with light gray color */
+    border-radius: 5px;
+    background-color: #dbdbdb;
+    height: 40px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #11ab42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 25%;
+    margin: auto;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form input[type="text"]::placeholder,
+.contact-form input[type="email"]::placeholder,
+.contact-form input[type="tel"]::placeholder,
+.contact-form textarea::placeholder {
+  color: #707070; /* Set placeholder color to gray */
+  font-size: 16px; /* Set placeholder font size to 16px */
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #097c33; /* Change border color on focus */
+}
+.contact-item {
+    border-bottom: 8px solid green;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item .contact-info p span {
+    color: green;
+}
+
+.scroll-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.scroll-up:hover {
+    background-color: #0056b3;
+}
+
+.contact-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (min-width: 768px) {
+    .contact-item-container {
+        width: 30%;
+    }
+
+    .contact-form-container {
+        width: 70%;
+        padding-right: 50px;
+    }
+}
+
+
+footer {
+    background-color: #010101f9;
+    /* Light background color */
+    padding: 20px;
+    text-align: center;
+    /* Center-align text */
+
+}
+
+footer p {
+    margin: 0;
+    /* Remove default margin */
+    font-size: 25px;
+    color: #717070;
+    /* Gray text color */
+}
